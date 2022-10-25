@@ -4,9 +4,9 @@ import './Track.css';
 class Track extends React.Component {
   renderAction() {
     if (this.props.isRemoval) {
-      <button className="Track-action">-</button>
+      return <button className="Track-action">-</button>
     } else {
-      <button className="Track-action">+</button>
+      return <button className="Track-action">+</button>
     }
   }
 
@@ -15,15 +15,15 @@ class Track extends React.Component {
       <div className="Track">
         <div className="Track-information">
           <h3>
-            {/* <!-- track name will go here --> */}
+            {this.props.track.name}
           </h3>
           <p>
-            {/* <!-- track artist will go here--> | <!-- track album will go here --> */}
+            {this.props.track.artist} | {this.props.track.album}
           </p>
         </div>
         {this.renderAction()}
       </div>
-    );
+    )
   }
 }
 
