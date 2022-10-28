@@ -6,6 +6,8 @@ This is a Codecademy React Portfolio Project.
 
 This application requests the Spotify API to allows users to search the Spotify library, create a custom playlist, then save it to their Spotify account.
 
+To view the application, simply click on this link - http://lucas-jam.surge.sh
+
 ## Built With
 
 - JavaScript
