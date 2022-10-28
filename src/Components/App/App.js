@@ -7,6 +7,8 @@ import Playlist from '../Playlist/Playlist';
 
 import Spotify from '../../util/Spotify';
 
+console.log(process.env.REACT_APP_API_KEY);
+
 class App extends React.Component {
   constructor(props) {
     super(props);
