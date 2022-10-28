@@ -1,5 +1,6 @@
 const clientID = '304dcb333920440a9cc900e8668591bf';
-const redirectURI = 'http://localhost:3000/';
+// const redirectURI = 'http://localhost:3000/';
+const redirectURI = 'http://lucas-jam.surge.sh';
 let accessToken;
 
 const Spotify = {
